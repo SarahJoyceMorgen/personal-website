@@ -1,14 +1,16 @@
 body {
-  background-color: rgb(213, 151, 69);
+  background-color: rgb(23, 114, 121);
  color: rgb(11, 10, 10);
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin: 50px;
 }
 
 h1 {
   font-size: xx-large;
   font-family: Arial, Helvetica, sans-serif;
-  margin: 30px;
+ 
 }
+
 
 ul {
   display: flex;
@@ -17,14 +19,22 @@ ul {
   
 }
 
+ul, li, a:link {
+  text-decoration: none;
+  list-style: none;
+}
+a:hover {
+  background-color: rgb(23, 114, 121);
+}
+
 p {
 text-align: left;
-margin: 50px;
+
 }
 
 img {
-height: 100px;
-width: 100px;
+height: 200px;
+width: 200px;
 }
 
 a {
@@ -33,16 +43,16 @@ a {
 
 
 .navbar {
+  background-color: aliceblue;
   display: flex;
   flex-direction: column;
   text-decoration: none;
-  margin: 5px;
-  text-decoration: none;
+  margin: 30px;
+  padding-right: 30px;
+  border-style: inset;
+  border-radius: 5px;
 
 
 }
 
 
-.nav-item {
-  margin-bottom: 10px;
-}
