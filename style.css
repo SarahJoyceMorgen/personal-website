@@ -1,18 +1,24 @@
 body {
-  background-color: burlywood;
-  color: black;
+  background-color: rgb(213, 151, 69);
+  color: rgb(11, 10, 10);
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h1 {
-  font-size: large;
-  font-style: italic;
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
+}
+
+.nav, ul, li
+{
+    list-style: none;
 }
 
 a {
@@ -23,6 +29,8 @@ a {
 .navbar {
   display: flex;
   flex-direction: column;
+  border-radius: 3%;
+  border-style: initial;
 }
 
 
