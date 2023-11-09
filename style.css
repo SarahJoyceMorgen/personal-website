@@ -1,12 +1,13 @@
 body {
   background-color: rgb(213, 151, 69);
-  color: rgb(11, 10, 10);
+ color: rgb(11, 10, 10);
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h1 {
   font-size: xx-large;
   font-family: Arial, Helvetica, sans-serif;
+  margin: 30px;
 }
 
 ul {
@@ -16,9 +17,14 @@ ul {
   
 }
 
-.nav, ul, li
-{
-    list-style: none;
+p {
+text-align: left;
+margin: 50px;
+}
+
+img {
+height: 100px;
+width: 100px;
 }
 
 a {
@@ -29,8 +35,11 @@ a {
 .navbar {
   display: flex;
   flex-direction: column;
-  border-radius: 3%;
-  border-style: initial;
+  text-decoration: none;
+  margin: 5px;
+  text-decoration: none;
+
+
 }
 
 
