@@ -41,6 +41,32 @@ a {
   color: black;
 }
 
+.about-me
+{
+  border: 2px solid #0e0d0d;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.hobbies
+{
+  border: 2px solid #0e0d0d;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.leisure-pursuits
+{
+  border: 2px solid #0e0d0d;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.section 
+{
+padding-bottom: 20px;
+}
+
 
 .navbar {
   background-color: aliceblue;
@@ -54,5 +80,3 @@ a {
 
 
 }
-
-
